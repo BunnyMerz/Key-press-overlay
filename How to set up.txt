@@ -1,0 +1,57 @@
+##############
+##############
+##############
+main_config.txt inside the main folder has all the basic configurations such as:
+
+margin_right: Integer in pixels.
+	Stands for the distance between each side of each key
+margin_bottom: Integer in pixels
+	Stands for the distance between each side of each key
+package_name: String of all charachters, except  / 
+	Name of the folder inside the folder called packages that is going to be used for the images
+
+
+Inside the package there must be a config.txt.
+For that, these are the instructions:
+##############
+##############
+##############
+# Any line started by # is ignored. Remember to not let any empty lines.
+#
+# # All images must have the same width X height,
+# # except for the key.png that must have double the width of the rest and same height
+# # Default Package has 40x40 as default size.
+# # key.png width and height determines the size of all other icons
+#
+# # "key.png" cannot be abscent and will be the frame for the icons, being a 80x40 instead of a 40x40 like all other images
+# # each half of the 80x40 represents a different state: The first half represents unpressed, the second
+# # represents pressed. At least for now, the background of the program is, by default, rgb[55, 239, 0] (found in main_config.txt).
+# # Having the key.png have that color will later on, once the chroma key is setted up, become transparent background.
+#
+# # Patterns are how the keys are gonna be placed around
+# # Patterns have numbers, separated by single spaces
+#
+# # Key labels and Number patterns are separated bye an empty line
+#
+# # Numbers are labled before deciding the pattern (You can also have symbols or letters, if you want to keep the pattern clean)
+# # 0's stand for blank, Numbers stand for whatever you named them to be
+# # The keys you labled,at the end of that line, will react based on what keys they are attached to (check key.txt to see all keys names).
+# # More then one key having the same number will make only the last key labled with that number work.
+#
+#
+# # Example on how to use:
+#
+# # # number/file_name/key
+# # # 1/my_pretty_pic.png/s
+# # # 2/wowee.png/w
+# # # 3/wowee.png/d
+# # # 4/wowee.png/a
+# # #                     (Notice this empty line between both lables and pattern)
+# # # 0 2 0 0 0
+# # # 4 1 3 0 0
+##############
+##############
+##############
+
+any file name that doesn't exist will make the app crash
+any unmapped key will also crash the app

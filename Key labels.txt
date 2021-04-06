@@ -1,0 +1,5 @@
+left > Left arrow key
+right > Right arrow key
+space_bar > Space bar
+l_shift > Left Shift
+r_shift > Right Shift
