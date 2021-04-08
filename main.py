@@ -13,6 +13,7 @@ def longest(double_list):
     return biggest
 
 
+
 def keyboard_reader_main(config,pattern,symbols,keys,key_frame_file):
     key_frame = pygame.image.load(key_frame_file)
     kw = int(key_frame.get_width()/2)
@@ -69,4 +70,4 @@ with open('packages/' + config['package_name'] + '/config.txt','r') as package_c
 
 symbols,keys = symbols_keys
 
-keyboard_reader_main(config,pattern,symbols,keys,'packages/tetris/key.png')
+# keyboard_reader_main(config,pattern,symbols,keys,'packages/tetris/key.png')
