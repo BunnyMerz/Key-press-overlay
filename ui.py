@@ -2,6 +2,7 @@ from tkinter import *
 from random import randint
 from radio import *
 import custom_checkbox
+import pattern
 languages = ['English','Português']
 choosen_language = 0
 languages_indexes = {'English':0,'Português':1}
@@ -106,9 +107,9 @@ def UI():
     pattern_label.grid(row=0,column=0)
     allLabels.append(pattern_label)
 
-    width = Entry()
+    pattern_area = pattern.Pattern(pattern_frame)
 
-    window.mainloop(pattern_frame)
+    window.mainloop()
 
 def update_labels(lang,*args):
     global lang_option  

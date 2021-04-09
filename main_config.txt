@@ -1,4 +1,4 @@
 rgb=[55,239,0]
 margin_right=5
 margin_bottom=5
-package_name=tetris
+package_name=magnak

@@ -4,7 +4,9 @@ import win32api
 
 keychart = {
     'left':37,
+    'up':38,
     'right':39,
+    'down':40,
     'space_bar':32,
     'l_shift':160,
     'r_shift':161

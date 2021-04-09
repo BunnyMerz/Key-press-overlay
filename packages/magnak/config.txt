@@ -1,0 +1,10 @@
+1/weak_magic.png/z
+2/strong_magic.png/x
+3/move_up.png/up
+4/move_left.png/left
+5/move_down.png/down
+6/move_right.png/right
+7/run.png/l_shift
+
+7 0 0 0 3 0
+1 2 0 4 5 6
